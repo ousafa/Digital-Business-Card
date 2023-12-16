@@ -1,0 +1,62 @@
+/* Info Component Style*/
+
+/* Base styles fot the Info component*/
+.info{
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 0;
+    height: 50%;
+}
+
+/* Styling for the profile image */
+.info--image{
+    border-radius: 15px 10px 0 0 ;
+    width: 400px;
+}
+
+/* Styling for the title */
+.info--title{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px 50px 0;
+    letter-spacing: 0.03em;
+}
+
+/* Styling for the description */
+.info--desc{
+    color: #999;
+    margin: 0 90px 0;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+
+/* Styling for the buttons container */
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 18px auto 0;
+}
+
+/* Styling for buttons inside the container */
+.buttons > button{
+    padding: 6px 20px;
+    margin: 0 2px 0 7px;
+    border-radius: 3px;
+    border: none;
+    font-size: 15px;
+
+}
+
+/* Styling for icons inside buttons */
+.buttons > button > i{
+    margin-right: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Styling for the active button */
+.active{
+    background-color:#4B83D5 ;
+    color: #fff;
+}
